@@ -63,9 +63,25 @@
       article {
         color: black;
         background-color: white;
-        padding: 20px;
-        margin: 3em;
+        margin: 3em 10em;
         background-size: cover;
+      }
+      article img {
+        height: 200px;
+        margin: 20px 10px;
+        padding: 0;
+      }
+      article div {
+        text-align: justify;
+        /*height: 200px;*/
+        margin: 20px 10px;
+        padding: 10px;
+        -webkit-column-count: 4; /* Chrome, Safari, Opera */
+        -moz-column-count: 4; /* Firefox */
+        column-count: 4;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
       }
   </style>
 
@@ -78,16 +94,27 @@
       <h2>Production de foie gras d'oie</h2>
       <h3>Eure et Loir</h3>
     </header>
+
     <nav>
       <a href="#">Qui sommes-nous</a> 
       <a href="#">Nos spécialités</a> 
       <a href="#">Nos tarifs</a> 
       <a href="#">Nous contacter</a>
     </nav>
+
     <article>
-      jhgjkyfgjyfg yuyk y 
+      <img src="https://farm6.staticflickr.com/5549/9359815321_dff7cf08d2_b.jpg">
+      <img src="https://farm6.staticflickr.com/5468/7090071565_f761f2c6cc_b.jpg">
+      <img src="https://farm6.staticflickr.com/5598/15700810932_fd34c0723d_b.jpg">
+      <img src="https://farm1.staticflickr.com/110/315723786_fd1e535233_b.jpg">
     </article>
 
+    <article>
+      <div >
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+      </div>
+    </article>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
